@@ -1,0 +1,34 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.promo{
+    background: url("/img/background/firstscreen_bg.png") center center/cover no-repeat;
+    height: 800px;
+    padding: 39px 0 62px 0;
+}
+.first-section{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo .logo_icon{
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 9.5px;
+}
