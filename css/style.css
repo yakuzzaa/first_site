@@ -180,15 +180,18 @@ h1.title{
 
 }
 .waiting .waiting_wrapper{
+    display: flex;
+    justify-content: space-between;
     margin-top: 45.5px;
 }
 .waiting .waiting_wrapper .waiting_item{
-    display: inline-block;
     width: 342px;
     vertical-align: top;
-    margin: 0 50px;
 }
-.waiting .waiting_wrapper .waiting_description{
+.waiting .waiting_wrapper .waiting_item .waiting_img{
+    width: 100%;
+}
+.waiting .waiting_wrapper .waiting_item .waiting_description{
     margin-top: 26px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
