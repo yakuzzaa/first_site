@@ -74,7 +74,7 @@ h1.title{
 
 /*styles for  promo text*/
 
-.promo_text{
+.promo .promo_text{
     margin-top: 22.5px;
     width: 1114px;
     text-align: center;
@@ -87,7 +87,7 @@ h1.title{
 
 }
 
-.promo_text span{
+.promo .promo_text span{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -99,7 +99,7 @@ h1.title{
 
 /*styles for button */
 
-.promo_button{
+.promo .promo_button{
     display: block;
     margin: 0 auto;
     margin-top: 72px;
@@ -114,9 +114,10 @@ h1.title{
     color: #FFFFFF;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     cursor: pointer;
+    outline: none;
 
 }
-.promo_button:hover{
+.promo .promo_button:hover{
     transform: scale(1.1);
 }
 
@@ -125,7 +126,7 @@ h1.title{
     margin-top: 70.5px;
 }
 
-.more_text{
+.more .more_text{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -135,13 +136,68 @@ h1.title{
     color: #FFFFFF;
 }
 
-.more_arrow{
+.more .more_arrow{
     display: block;
     margin: 0 auto;
     margin-top: 4.50px;
 }
 
+/*WAITING SECTION*/
+/*styles for bg*/
 
+.waiting{
+    height: 607px;
+    background: #EFEFEF;
+    padding-top:88px;
+    padding-bottom: 75px;
+}
+
+.waiting .waiting_title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.waiting .waiting_divider{
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+.waiting .waiting_subtitle{
+    margin-top: 18.5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+
+}
+.waiting .waiting_wrapper{
+    margin-top: 45.5px;
+}
+.waiting .waiting_wrapper .waiting_item{
+    display: inline-block;
+    width: 342px;
+    vertical-align: top;
+    margin: 0 50px;
+}
+.waiting .waiting_wrapper .waiting_description{
+    margin-top: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4A4A;
+}
 
 
 
