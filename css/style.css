@@ -146,7 +146,7 @@ h1.title{
 /*styles for bg*/
 
 .waiting{
-    height: 607px;
+    min-height: 607px;
     background: #EFEFEF;
     padding-top:88px;
     padding-bottom: 75px;
@@ -200,6 +200,54 @@ h1.title{
     line-height: 21px;
     text-align: center;
     color: #4A4A4A;
+}
+
+/*OPTIMIZATION SECTION*/
+.optimization{
+    min-height: 549px;
+    padding: 102px 0  107px  0 ;
+}
+.optimization .optimization_title{
+    margin-left: 391px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.optimization .optimization_text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-left: 391px;
+    margin-top: 25px;
+}
+.optimization .optimization_text p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.optimization .optimization_text span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+.optimization .optimization_img{
+    position: absolute;
+    top:-54px;
+    left: -240px;
+    z-index: -1;
+
+
+
 }
 
 
