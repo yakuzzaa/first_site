@@ -5,8 +5,7 @@
     margin: 0;
 }
 
-
-/*background for promo section*/
+/*PROMO SECTION*/
 
 .promo{
     background: url("/img/background/firstscreen_bg.png") center center/cover no-repeat;
@@ -143,7 +142,6 @@ h1.title{
 }
 
 /*WAITING SECTION*/
-/*styles for bg*/
 
 .waiting{
     min-height: 607px;
