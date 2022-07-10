@@ -99,7 +99,7 @@ h1.title{
 
 /*styles for button */
 
-.promo .promo_button{
+.promo .promo_button, .gift .gift_button{
     display: block;
     margin: 0 auto;
     margin-top: 72px;
@@ -117,7 +117,7 @@ h1.title{
     outline: none;
 
 }
-.promo .promo_button:hover{
+.promo .promo_button:hover, .gift .gift_button:hover{
     transform: scale(1.1);
 }
 
@@ -304,7 +304,30 @@ h1.title{
     color: #EFEFEF;
 }
 
+/*GIFT SECTION*/
 
+.gift{
+    min-height: 631px;
+    background: #EFEFEF;
+    padding-top: 88px;
+}
+
+.gift .gift_logo{
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text{
+    margin-top: 45px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+
+}
 
 
 
