@@ -371,9 +371,33 @@ h1.title{
     color: #4A4A4A;
 }
 
-
-
-
+.footer{
+    min-height: 169px;
+    background: #1A1A1A;;
+}
+.footer .footer_anchor_wrapper{
+    text-align: center;
+}
+.footer .footer_support, .footer .footer_confidentiality, .footer .footer_divider{
+    display: inline-block;
+    margin-top: 57px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #888888;
+}
+.footer .footer_call{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+}
 
 
 
