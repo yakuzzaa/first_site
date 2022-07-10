@@ -329,11 +329,47 @@ h1.title{
 
 }
 
+/*MEETING SECTION*/
 
+.meeting{
+    min-height: 514px;
+    padding-top: 81px;
+}
 
+.meeting .meeting_img{
+    display: block;
+    margin: 0 auto;
+}
 
-
-
+.meeting .meeting_title{
+    margin-top: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+.meeting .meeting_text{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.meeting .meeting_subtext{
+    margin-top: 24.5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
 
 
 
