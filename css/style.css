@@ -10,7 +10,7 @@ html{
 /*PROMO SECTION*/
 
 .promo{
-    background: url("/img/background/firstscreen_bg.png") center center/cover no-repeat;
+    background: url("../img/background/firstscreen_bg.png") center center/cover no-repeat;
     height: 800px;
     padding: 39px 0 62px 0;
 }
